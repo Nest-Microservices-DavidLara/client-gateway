@@ -15,3 +15,11 @@ El gateway es el punto de comunicacion entre nuestros clientes y nuestros servic
 ```
 docker run -d --name nats-server -p 4222:4222 -p 8222:8222 nats
 ```
+
+# PROD
+
+Ejecutar
+
+```
+docker build -f dockerfile.prod -t client-gateway .
+```
